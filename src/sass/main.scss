@@ -1,0 +1,15 @@
+$font-size: 1rem;
+$h1-color: #0e928c;
+$p-color: #132338;
+
+html {
+  font-size: $font-size;
+}
+
+h1 {
+  color: $h1-color;
+}
+
+p {
+  color: $p-color;
+}
