@@ -1,16 +1,10 @@
 import './sass/main.scss';
 
-class Game {
-  name = 'Webpack 5 Game';
-}
-
-const myGame = new Game();
-
 const heading = document.createElement('h1');
 heading.textContent = 'Webpack Boilerplate!';
 
 const p = document.createElement('p');
-p.textContent = `I like ${myGame.name}.`;
+p.textContent = 'Website bundled using Webpack 5.';
 
 const app = document.querySelector('#root');
 app.append(heading);
